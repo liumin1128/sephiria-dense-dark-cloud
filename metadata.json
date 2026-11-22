@@ -1,0 +1,28 @@
+{
+  "info": {
+    "title": {
+      "default": "乌云密布",
+      "zh-CN": "乌云密布",
+      "zh-TW": "烏雲密佈",
+      "en-US": "Dense Dark Cloud"
+    },
+    "description": {
+      "default": "新增传说（红色）级神器「乌云密布」，连击类别为「乌云」。\n\n神器每提升一级，便多聚起一朵乌云，最多七朵（1 级 1 朵 → 7 级 7 朵）。每一朵乌云都是独立的个体：各自积蓄乌云层数、各自计时、各自落下雷击，行为逻辑与数值全部沿用原版乌云；它们会在玩家身边按黄金角散开，不会完全重合在一处。\n\n可在许愿池中带入。参考神器：雷文泥板。",
+      "zh-CN": "新增传说（红色）级神器「乌云密布」，连击类别为「乌云」。\n\n神器每提升一级，便多聚起一朵乌云，最多七朵（1 级 1 朵 → 7 级 7 朵）。每一朵乌云都是独立的个体：各自积蓄乌云层数、各自计时、各自落下雷击，行为逻辑与数值全部沿用原版乌云；它们会在玩家身边按黄金角散开，不会完全重合在一处。\n\n可在许愿池中带入。参考神器：雷文泥板。",
+      "zh-TW": "新增傳說（紅色）級神器「烏雲密佈」，連擊類別為「烏雲」。\n\n神器每提升一級，便多聚起一朵烏雲，最多七朵（1 級 1 朵 → 7 級 7 朵）。每一朵烏雲都是獨立的個體：各自積蓄烏雲層數、各自計時、各自落下雷擊，行為邏輯與數值全部沿用原版烏雲；它們會在玩家身邊按黃金角散開，不會完全重合在一處。\n\n可在許願池中帶入。參考神器：雷文泥板。",
+      "en-US": "Adds the Legend (red) artifact \"Dense Dark Cloud\", comboing as Dark Cloud.\n\nEach artifact level gathers one more dark cloud, up to seven (level 1 = 1 cloud, level 7 = 7 clouds). Every cloud is an independent individual: its own charge, its own timer, its own lightning strike, with vanilla behaviour and values, scattered around the player at golden-angle spacing instead of stacking on one point.\n\nAvailable from the wishing fountain. Modelled after the Fretted Clay Tablet."
+    },
+    "preview": "thumbnail.png"
+  },
+  "tags": ["Item"],
+  "mod": {
+    "schemaVersion": 1,
+    "modId": "liumin.dense-dark-cloud",
+    "version": "0.2.2",
+    "author": "liumin",
+    "multiplayer": { "installation": "everyone" },
+    "modules": [
+      { "type": "dll", "path": "bin/DenseDarkCloud.dll", "entryClass": "DenseDarkCloud.Entry" }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+# 构建产物
+src/bin/
+src/obj/
+bin/
+obj/
+*.user
+*.suo
+
+# 调试开关（见 README「调试开关」）
+debug-*.txt
+
+# 系统
+.vs/
+.idea/
+Thumbs.db
+desktop.ini
+
+# 上传流程的中间产物
+WorkshopSubmissions/
